@@ -27,7 +27,7 @@ Java dilini kullanarak oluşturulan dosyaların arşiv dosyası, .jar uzantılı
 Java dilinde,ortak özellikleri olan nesneleri modellemek için abstract(soyut) class kullanılır.Kalıtım özelliği kullanılabilerek kod tekrarı azaltılır.
 * Abstract class kullanılarak, bu sınıflardan bir nesne oluşturulmaz.
 * Soyut sınıflar ancak kendilerinden bir alt sınıf türetmek için kullanılan sınıflardır. Bir nevi şablon yada taslak gibi düşünülebilir.
-* Soyut metotların bir gövdesi yoktur ve alt sınıfta mutlaka override edilmelidirler.
+* Soyut metotların bir gövdesi yoktur ve alt sınıfta override edilir.
 
 ```
 public abstract class Kisi {
