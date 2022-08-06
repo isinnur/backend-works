@@ -37,11 +37,11 @@ public abstract class Kisi {
   String dogumTarihi;
 
 
-  public Kisi(String adSoyad, String dogumtarihi) {
+  public Kisi(String adSoyad, String dogumTarihi) {
 
   this.adSoyad=adSoyad;
 
-  this.dogumTarihi=dogumtarihi;
+  this.dogumTarihi=dogumTarihi;
 
   }
 
@@ -69,9 +69,9 @@ public class Ogrenci extends Kisi {
  int ogrNo;
 
 
- public Ogrenci(String adSoyad, String dtarih, int ogrNo,) {
+ public Ogrenci(String adSoyad, String dogumTarihi, int ogrNo,) {
 
-   super(adSoyad,dtarih);
+   super(adSoyad,dogumTarihi);
 
    this.ogrNo=ogrNo;
 
